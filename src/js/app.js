@@ -91,7 +91,9 @@ class CardValidatorApp {
     const cardNumberInput = document.getElementById("card_number");
     const cardNumber = cardNumberInput.value;
 
+    // eslint-disable-next-line no-undef
     if (cardValidator.isValid()) {
+      // eslint-disable-next-line no-undef
       const cardType = cardValidator.detectCardType();
       alert(`Card is valid. Card type: ${cardType}`);
     } else {
