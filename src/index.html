@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <h1>Check your credit card numbes</h1>
+    <div class="list">
+      <ul class="cards-list">
+        <li><span class="card visa" title="Visa">
+          <img class="visa" src="img/visa.png" alt="visa">
+        </li>
+        <li><span class="card master" title="Mastercard">
+          <img class="master" src="img/mastercard.png" alt="master">
+        </span></li>
+        <li><span class="card amex" title="American Express">
+          <img class="amex" src="img/amex.png" alt="amex">
+        </span></li>
+        <li><span class="card discover" title="Discover">
+          <img class="discover" src="img/discover.png" alt="discover">
+        </span></li>
+        <li><span class="card jcb" title="JCB">
+          <img class="jcb" src="img/jcb.png" alt="jcb">
+        </span></li>
+        <li><span class="card diners_club" title="Diners Club">
+          <img class="diners" src="img/dinersclub.png" alt="diners">
+        </span></li>
+        <li><span class="card mir" title="Mir">
+          <img class="mir" src="img/mir.png" alt="mir">
+        </span></li>
+      </ul>
+    </div>
+    <form id="form" class="form-inline" novalidate="novalidate">
+      <div class="form-group">
+        <input class="form-control col-md-6" id="card_number" name="card_number" type="text"
+          placeholder="Credit card number" data-original-title="" title="">
+        <button class="btn btn-success">Click to Validate</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
